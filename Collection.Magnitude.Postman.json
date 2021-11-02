@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "78da6c7b-5695-43fc-9fb0-e2526e3a269a",
-		"name": "DocumentDB",
+		"name": "Collection.CosmosDB.Magnitude.SQL.Specs",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -26,7 +26,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -143,10 +143,10 @@
 					}
 				],
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs",
+					"raw": "https://{{CosmosDB.Host}}/dbs",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs"
@@ -176,7 +176,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -297,10 +297,10 @@
 					"raw": "{\r\n    \"id\": \"tempdb\"\r\n}\r\n"
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs",
+					"raw": "https://{{CosmosDB.Host}}/dbs",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs"
@@ -330,7 +330,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -447,10 +447,10 @@
 					}
 				],
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -481,7 +481,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -598,10 +598,10 @@
 					}
 				],
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -633,7 +633,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -754,10 +754,10 @@
 					"raw": "{\r\n    \"id\": \"tempcoll\"\r\n}\r\n"
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -789,7 +789,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -906,10 +906,10 @@
 					}
 				],
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -942,7 +942,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -1064,10 +1064,10 @@
 					"raw": "{\r\n    \"id\": \"WakefieldFamily\",\r\n    \"parents\": [\r\n        { \"familyName\": \"Wakefield\", \"givenName\": \"Robin\" },\r\n        { \"familyName\": \"Miller\", \"givenName\": \"Ben\" }\r\n    ],\r\n    \"children\": [\r\n        {\r\n            \"familyName\": \"Merriam\", \r\n            \"givenName\": \"Jesse\", \r\n            \"gender\": \"female\", \"grade\": 1,\r\n            \"pets\": [\r\n                { \"givenName\": \"Goofy\" },\r\n                { \"givenName\": \"Shadow\" }\r\n            ]\r\n        },\r\n        { \r\n            \"familyName\": \"Miller\", \r\n             \"givenName\": \"Lisa\", \r\n             \"gender\": \"female\", \r\n             \"grade\": 8 }\r\n    ],\r\n    \"address\": { \"state\": \"NY\", \"county\": \"Manhattan\", \"city\": \"NY\" },\r\n    \"creationDate\": 1431620462,\r\n    \"isRegistered\": false\r\n}"
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll/docs",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll/docs",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -1101,7 +1101,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -1218,10 +1218,10 @@
 					}
 				],
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll/docs/WakefieldFamily",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll/docs/WakefieldFamily",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -1256,7 +1256,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -1381,10 +1381,10 @@
 					"raw": "{\r\n    \"id\": \"WakefieldFamily\",\r\n    \"parents\": [\r\n        { \"familyName\": \"Wakefield\", \"givenName\": \"Robin\" },\r\n        { \"familyName\": \"Miller\", \"givenName\": \"Ben\" },\r\n        { \"familyName\" : \"Lindsay\", \"givenName\": \"Steve\" }\r\n    ],\r\n    \"children\": [\r\n        {\r\n            \"familyName\": \"Merriam\", \r\n            \"givenName\": \"Jesse\", \r\n            \"gender\": \"female\", \"grade\": 1,\r\n            \"pets\": [\r\n                { \"givenName\": \"Goofy\" },\r\n                { \"givenName\": \"Shadow\" }\r\n            ]\r\n        },\r\n        { \r\n            \"familyName\": \"Miller\", \r\n             \"givenName\": \"Lisa\", \r\n             \"gender\": \"female\", \r\n             \"grade\": 8 }\r\n    ],\r\n    \"address\": { \"state\": \"NY\", \"county\": \"Manhattan\", \"city\": \"NY\" },\r\n    \"creationDate\": 1431620462,\r\n    \"isRegistered\": false\r\n}"
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll/docs/WakefieldFamily",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll/docs/WakefieldFamily",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -1419,7 +1419,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -1541,10 +1541,10 @@
 					"raw": "{\r\n    \"id\": \"AndersenFamily\",\r\n    \"lastName\": \"Andersen\",\r\n    \"parents\": [\r\n       { \"firstName\": \"Thomas\" },\r\n       { \"firstName\": \"Mary Kay\"}\r\n    ],\r\n    \"children\": [\r\n       {\r\n           \"firstName\": \"Henriette Thaulow\", \"gender\": \"female\", \"grade\": 5,\r\n           \"pets\": [{ \"givenName\": \"Fluffy\" }]\r\n       }\r\n    ],\r\n    \"address\": { \"state\": \"WA\", \"county\": \"King\", \"city\": \"seattle\" },\r\n    \"creationDate\": 1431620472,\r\n    \"isRegistered\": true\r\n}"
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll/docs",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll/docs",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -1578,7 +1578,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -1695,10 +1695,10 @@
 					}
 				],
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll/docs",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll/docs",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -1732,7 +1732,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -1861,10 +1861,10 @@
 					"raw": "{      \r\n    \"query\": \"SELECT * FROM Families f WHERE f.id = @familyId\",     \r\n    \"parameters\": [          \r\n        {\"name\": \"@familyId\", \"value\": \"AndersenFamily\"}         \r\n    ] \r\n}"
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll/docs",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll/docs",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -1898,7 +1898,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -2027,10 +2027,10 @@
 					"raw": "{      \r\n    \"query\": \"SELECT \r\n                 f.id AS familyName, \r\n                 c.givenName AS childGivenName, \r\n                 c.firstName AS childFirstName, \r\n                 p.givenName AS petName \r\n              FROM Families f \r\n              JOIN c IN f.children \r\n              JOIN p in c.pets\",     \r\n    \"parameters\": [] \r\n}"
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll/docs",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll/docs",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -2064,7 +2064,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -2185,10 +2185,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll/docs/WakefieldFamily",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll/docs/WakefieldFamily",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -2223,7 +2223,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -2344,10 +2344,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb/colls/tempcoll",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb/colls/tempcoll",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
@@ -2380,7 +2380,7 @@
 						"type": "text/javascript",
 						"exec": [
 							"// store our master key for documentdb\r",
-							"var mastKey = postman.getEnvironmentVariable(\"DocumentDBMasterKey\");\r",
+							"var mastKey = postman.getEnvironmentVariable(\"CosmosDB.MasterKey\");\r",
 							"console.log(\"mastKey = \" + mastKey);\r",
 							"\r",
 							"// store our date as RFC1123 format for the request\r",
@@ -2501,10 +2501,10 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "https://{{DocumentDBHost}}/dbs/tempdb",
+					"raw": "https://{{CosmosDB.Host}}/dbs/tempdb",
 					"protocol": "https",
 					"host": [
-						"{{DocumentDBHost}}"
+						"{{CosmosDB.Host}}"
 					],
 					"path": [
 						"dbs",
